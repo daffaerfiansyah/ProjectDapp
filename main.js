@@ -25,5 +25,5 @@ var typingEffect = new Typed(".typedtext",{
     backDelay : 2000
 });
 
-ScrollReveal().reveal('.section', { delay: 500 });
-ScrollReveal().reveal('.card', { delay: 1000 });
+ScrollReveal().reveal('.top-header', { delay: 500 });
+ScrollReveal().reveal('.card', { delay: 700 });

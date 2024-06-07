@@ -187,6 +187,34 @@ i{
     }
 }
 
+/* ABOUT */
+.about {
+    padding-inline: 10vw;
+}
+.card-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.about-img img {
+    border-radius: 50%;
+    width: 25vw;
+}
+.heading {
+    text-align: center;
+    font-size: 3rem;
+}
+.about-content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+.about-content h3{
+    font-size: 2rem;
+}
+.about-content p{
+    font-size: 1rem;
+}
 .scroll-btn {
     position: absolute;
     margin-bottom: 3%;
@@ -215,23 +243,19 @@ i{
 /* SECTION ABOUT */
 .section {
     padding-inline: 10vw;
-    padding-block: 5em;
 }
 .row {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
     gap: 50px;
-}
+} 
 .col {
     display: flex;
-    width: 50%;
+    width: 100%;
 }
 
 .top-header {
     text-align: center;
-    margin-top: 2em;
-    margin-bottom: 5em;
+    margin-top: 10%;
+    margin-bottom: 3em;
 }
 .top-header h1 {
     font-weight: 600;
