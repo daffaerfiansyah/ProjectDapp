@@ -1,20 +1,14 @@
 // ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING
+function myMenuFunction(){
+    var menuBtn = document.getElementById("myNavMenu");
 
-window.onscroll = function() {headerShadow()};
-
-function headerShadow() {
-    const navHeader =document.getElementsByClassName("navbar");
-
-    if (document.body.scrollTop > 50 || document.documentElement.ScrollTop > 50) {
-        navHeader.style.boxShadow = "0 1px 6px rgba(0, 0, 0, 0.1)";
-        navHeader.style.height = "70px";
-        navHeader.style.lineHeight = "70px";
+    if(menuBtn.className === "nav-menu"){
+      menuBtn.className += " responsive";
     } else {
-        navHeader.style.boxShadow = "none";
-        navHeader.style.height = "90px";
-        navHeader.style.lineHeight = "90px";
+      menuBtn.className = "navbar-nav";
     }
-}
+  }
+
 
 // TYPING EFFECT //
 var typingEffect = new Typed(".typedtext",{
@@ -25,5 +19,40 @@ var typingEffect = new Typed(".typedtext",{
     backDelay : 2000
 });
 
-ScrollReveal().reveal('.top-header', { delay: 500 });
-ScrollReveal().reveal('.card', { delay: 700 });
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true     
+})
+
+/* -- HOME -- */
+sr.reveal('.featured-text-card',{})
+sr.reveal('.featured-name',{delay: 100})
+sr.reveal('.featured-text-info',{delay: 200})
+sr.reveal('.featured-text-btn',{delay: 200})
+sr.reveal('.social_icons',{delay: 200})
+sr.reveal('.featured-image',{delay: 250})
+
+sr.reveal('.top-header',{})
+
+const srLeft = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+  })
+
+srLeft.reveal('.card-about',{delay: 100})
+
+document.addEventListener('DOMContentLoaded', function() {
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            navLinks.forEach(nav => nav.classList.remove('active'));
+            
+            this.classList.add('active');
+        });
+    });
+});
