@@ -250,7 +250,7 @@ i{
 
 /* SECTION ABOUT */
 .section {
-    padding-inline: 10vw;
+    padding-block: 5em;
 }
 .row {
     gap: 50px;
