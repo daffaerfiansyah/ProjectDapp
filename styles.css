@@ -506,6 +506,7 @@ i{
     .about-content h2{
         display: flex;
         justify-content: center;
+        text-align: center;
         width: 100%;
     }
     .project-container{
