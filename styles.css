@@ -469,6 +469,12 @@ i{
         justify-content: center;
         width: 100%;
     }
+    .project-container{
+        justify-content: center;
+    }
+    .project-box{
+        width: 80%;
+    }
 }
 
 @media (min-width: 990px) {
@@ -488,5 +494,14 @@ i{
     .nav-link:hover::before, .nav-link.active::before {
         width: 100%;
         visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .featured-name{
+        font-size: 40px;
+    }
+    .project-box{
+        width: 100%;
     }
 }
