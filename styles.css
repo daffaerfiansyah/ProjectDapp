@@ -188,7 +188,7 @@ i{
     height: 350px;
     border-radius: 55% 45% 55% 45%;
     overflow: hidden;
-    animation: imgFloat 7s ease-in-out infinite;
+    animation: imgFloat 4s ease-in-out infinite;
 }
 .image img {
     width: 350px;
