@@ -45,6 +45,8 @@ const srLeft = ScrollReveal({
 
 srLeft.reveal('.card-about',{delay: 100})
 
+sr.reveal('.project-box',{interval: 200})
+
 document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelectorAll('.nav-link');
 
