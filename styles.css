@@ -68,6 +68,10 @@ html{
     background: var(--second-color);
     color: var(--color-white);
 }
+.logo {
+    width: 4%;
+}
+
 
 /* Global Icon */
 i{
@@ -118,7 +122,7 @@ i{
     padding-left: 20px;
 }
 .featured-text-card span{
-    background: var(--third-color);
+    background: var(--text-color-second);
     color: var(--color-white);
     padding: 3px 8px;
     font-size: 12px;
@@ -374,19 +378,8 @@ i{
     margin-right: auto;
 }
 
-
-/* .hero-section::before {
-    background-color: rgba(0, 0, 0, 0.4);
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-} */
-
 .navbar {
-    background-color: #fff;
+    background-color: #ffffff60;
     height: 60px;
     margin: 20px;
     border-radius: 16px;
@@ -404,13 +397,13 @@ i{
 }
 
 .nav-link {
-    color: #666777;
+    color: #575757;
     font-weight: 500;
     position: relative;
 }
 
 .nav-link:hover, .nav-link.active {
-    color: var(--second-color);
+    color: black;
 }
 
 /* -----QUERY------ */
@@ -514,6 +507,9 @@ i{
     }
     .project-box{
         width: 80%;
+    }
+    .logo {
+        width: 8%;
     }
 }
 
