@@ -378,6 +378,11 @@ i{
     margin-right: auto;
 }
 
+/* CARROUSEL */
+.content {
+    padding-block: 2em;
+    padding-inline: 10vw;
+}
 .navbar {
     background-color: #ffffff60;
     height: 60px;
