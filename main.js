@@ -1,18 +1,6 @@
-// ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING
-function myMenuFunction(){
-    var menuBtn = document.getElementById("myNavMenu");
-
-    if(menuBtn.className === "nav-menu"){
-      menuBtn.className += " responsive";
-    } else {
-      menuBtn.className = "navbar-nav";
-    }
-  }
-
-
 // TYPING EFFECT //
 var typingEffect = new Typed(".typedtext",{
-    strings : ["Web Developer", "Web Designer", "Engineering"],
+    strings : ["Frontend Developer", "Designer"],
     loop : true,
     typeSpeed : 100,
     backSpeed : 80,

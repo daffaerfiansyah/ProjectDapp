@@ -5,8 +5,8 @@
     --body-color: rgb(247, 247, 247);
     --color-white: rgb(255, 255, 255);
 
-    --text-color-second: rgb(68, 68, 68);
-    --text-color-third: rgb(30, 159, 171);
+    --text-color-second: rgb(45, 45, 45);
+    --text-color-third: rgb(11, 184, 200);
 
     --first-color: rgb(110, 87, 224);
     --first-color-hover: rgb(250, 250, 250);
@@ -129,9 +129,9 @@ i{
     border-radius: 5px;
 }
 .featured-name {
-    font-size: 50px;
+    font-size: 41px;
     font-weight: 600;
-    color: var(--text-color-second);
+    color: #ffffff;
     margin-block: 20px;
 }
 .typedtext{
@@ -366,7 +366,7 @@ i{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
 }
 .card-portfolio .card-img-top{
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .card-portfolio .card-title {
     text-align: center;
@@ -375,8 +375,19 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: auto;
 }
+/* .card-portfolio .btn-satu {
+    margin-top: 15%;
+} */
+.card-portfolio .btn-tiga {
+    display: none;
+}
+/* .card-portfolio .pcard {
+    margin-top: 20%;
+}
+.card-portfolio .h-card {
+    margin-top: 20%;
+} */
 
 /* CARROUSEL */
 .content {
@@ -384,7 +395,8 @@ i{
     padding-inline: 10vw;
 }
 .navbar {
-    background-color: #ffffff60;
+    background: rgba(255, 255, 255);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
     height: 60px;
     margin: 20px;
     border-radius: 16px;
@@ -419,6 +431,20 @@ i{
     .image, .image img {
         width: 320px;
         height: 320px;
+    }
+}
+@media only screen and (min-width: 991px) {
+    .card-portfolio .btn-satu {
+        margin-top: 15%;
+    }
+    .card-portfolio .btn-tiga {
+        display: none;
+    }
+    .card-portfolio .pcard {
+        margin-top: 20%;
+    }
+    .card-portfolio .h-card {
+        margin-top: 20%;
     }
 }
 
