@@ -23,6 +23,7 @@ sr.reveal('.social_icons',{delay: 200})
 sr.reveal('.featured-image',{delay: 250})
 
 sr.reveal('.top-header',{})
+sr.reveal('.carousel',{})
 
 const srLeft = ScrollReveal({
     origin: 'top',

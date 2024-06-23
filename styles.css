@@ -423,6 +423,11 @@ i{
     color: black;
 }
 
+/* FOOTER */
+.background-footer {
+    background-color: #cfcfcf;
+}
+
 /* -----QUERY------ */
 @media only screen and (max-width: 1024px) {
     .featured-text {
